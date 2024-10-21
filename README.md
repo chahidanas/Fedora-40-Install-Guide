@@ -2,8 +2,13 @@
 
 
 
+# 🚧 Work in Progress 🚧
 
+**Thank you for your patience!**
 
+---
+
+*Stay tuned for updates!*
 
 
 
@@ -30,17 +35,6 @@ deltarpm=true
 ```
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-```
-
-## Update 
-* Go into the software center and click on update.
-  Then Reboot
-
-* Alternatively, you can use the following commands:
-```
-sudo dnf -y update
-sudo dnf -y upgrade --refresh
-reboot
 ```
 
 ## Media Codecs
@@ -79,6 +73,17 @@ sudo dnf swap mesa-va-drivers mesa-va-drivers-freeworld
 * `sudo dnf config-manager --set-enabled fedora-cisco-openh264`
 * `sudo dnf install -y openh264 gstreamer1-plugin-openh264 mozilla-openh264`
 * After this enable the OpenH264 Plugin in Firefox's settings.
+
+## Update 
+* Go into the software center and click on update.
+  Then Reboot
+
+* Alternatively, you can use the following commands:
+```
+sudo dnf -y update
+sudo dnf -y upgrade --refresh
+reboot
+```
 
 ## Set Hostname
 * `sudo hostnamectl set-hostname "New_Custom_Name"`
